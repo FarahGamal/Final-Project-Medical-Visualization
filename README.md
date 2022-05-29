@@ -9,10 +9,10 @@
 |Mohammed El-Saeed   | 1190539  |
 
 # Issues
-It Was diffuclt to implement various examples in the same index.js files.
-The website sometimes wouldnt display anything and at the same time there is no error indiacted why ,so it was diffuclt to pinpoint the source.
-We Faced an issue trying to implement a ui with the vtk library becuase of webpack.
-Also we faced an issue when showing one of the examples where it hides the ui so we had to make another button outside the example box.
+- It Was diffuclt to implement various examples in the same index.js files.
+- The website sometimes wouldnt display anything and at the same time there is no error indiacted why ,so it was diffuclt to pinpoint the source.
+- We Faced an issue trying to implement a ui with the vtk library becuase of webpack.
+- Also we faced an issue when showing one of the examples where it hides the ui so we had to make another button outside the example box.
 
 # Preview
 
