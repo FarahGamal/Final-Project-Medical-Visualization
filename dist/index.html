@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>computer Graphics</title>
+
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css\templatemo-style.css">
+    <!-- Templatemo style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="option-section">
+                <h2 class="tm-welcome-text">Welcome to VTK Volume Rendering</h2>
+        <div class="row tm-section-mb options">
+         <div class="option_box">
+            <img
+            src="imgs/iso.jpeg"
+            alt="iso-image"
+            class="option-box-image"
+          />
+          <h2 class="option-box-title">ISO Rendering</h2>
+          <p class="option-box-text">
+            Applying an ISO slider on a human skull to control the degree of ISO Rendering.
+          </p>
+          <input class="btn" id="clickMeIso"  type="button"  value="ISO" />
+         </div>
+         <div class="option_box">
+            <img
+            src="imgs/ray_casting.jpeg"
+            class="option-box-image"
+          />
+          <h2 class="option-box-title">Ray Casting </h2>
+          <p class="option-box-text">
+            A human chest where the user can control the color tranfser function using a widget.
+          </p>
+          <input class="btn" id="clickMeRayCasting"  type="button"  value="Ray Casting" />
+
+         </div>
+         <div class="option_box">
+         <img
+         src="imgs/clipping.jpeg"
+         class="option-box-image"
+       />
+       <h2 class="option-box-title">Cropping widget</h2>
+       <p class="option-box-text">
+        A chest with the cropping widget where the user can clip and crop the image of the chest.
+       </p>
+       <input class="btn" id="clickMeClip"  type="button"  value="Crop" />
+    </div>
+      </div>
+        <div class="home-btn">
+        <input class="btn" id="Back_button" type="button" value="Home" name="Home" />
+      </div>
+    </div>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
